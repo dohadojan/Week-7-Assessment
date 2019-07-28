@@ -2,11 +2,53 @@
 <html>
 
 <head>
+
+		<script src="jquery-3.4.1.min.js">
+			
+			
+			
+			
+			$( function() {
+  $('yes').click( function() {
+    $(this).css('background', '#green')
+  } );
+} );
+
+$( function() {
+  $("no").click( function() {
+    $(this).css('background', '#red')
+  } );
+} );
+
+			</script>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+
+	<title> Q4 </title>
+
+	<style>
+	.yes{
+
+		background-color: green;
+	}
+
+	.no{
+
+
+		background-color: red;
+	}
+	
+	</style>
 </head>
 
 <body>
 	<!-- WRITE YOUR CODE UNDER THIS LINE          -->
+
+	<div class="main">
+
+			<h1> main div is here ! </h1>
+	<button id="yes" onclick="function()">	green  </button> 
+	<button id="no" onclick="function()">  red	 </button> 
+	</div>
 </body>
 
 </html>
